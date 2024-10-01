@@ -1,5 +1,7 @@
 .tie{
     font-family: sans-serif;
+    padding-left: 1000px;
+    padding-right: 1000px;
 }
 .ties{
     position: relative;
@@ -108,4 +110,25 @@ button{
 }
 #s8{
     border-right: 5px solid white;
+}
+.button{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+@media screen and (max-width:700px) {
+    .button{
+        margin: auto;
+        margin-top: 10px;
+    }
+    #square-container {
+        grid-template-columns: repeat(3, 120px);
+    }
+    .square{
+        width: 120px;
+        height: 120px;
+        font-size: 120px;
+    }
+    #result{
+        width: 400px;
+    }
 }
