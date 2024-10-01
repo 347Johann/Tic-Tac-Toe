@@ -1,0 +1,111 @@
+.tie{
+    font-family: sans-serif;
+}
+.ties{
+    position: relative;
+    right: 32.1718734px;
+    top: 40px;
+    font-size: 40px;
+}
+.stats{
+    position: relative;
+    right: 163px;
+    top: 40px;
+    font-size: 40px;
+}
+.name-container{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 28px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+}
+body{
+    background-color: black;
+}
+#square-container {
+    display: grid;
+    grid-template-columns: repeat(3, 190px);
+    margin: auto;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+}
+.square {
+    width: 190px;
+    height: 190px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.check-container{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+#result{
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 80px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+#s1{
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#s2{
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+#s3{
+    border-bottom: 5px solid white;
+}
+#s4{
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#s5{
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+#s6{
+    border-bottom: 5px solid white;
+}
+#s7{
+    border-right: 5px solid white;
+}
+#s8{
+    border-right: 5px solid white;
+}
