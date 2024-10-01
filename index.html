@@ -22,18 +22,16 @@
     <div class="name-container">
         <input class="name" id="name1" placeholder="Player 1 Name"><h1> (X)</h1>
         <h1 class="stats" id="p1Stats">0</h1>
-        <span>        </span>
         <h1 id="tie">Tie</h1>
         <h1 class="ties" id="ties">0</h1>
-        <span>        </span>
         <input class="name" id="name2" placeholder="Player 2 Name"><h1> (O)</h1>
         <h1 class="stats" id="p2Stats">0</h1>
     </div>
-    <button onclick="deleteScore()">Delete Score</button>
-    <span>     </span>
-    <button onclick="saveScore()">Save Score</button>
-    <span>     </span>
-    <button onclick="reset()">Reset</button>
+    <div class="button-container">
+        <button onclick="deleteScore()" class="button">Delete Score</button>
+        <button onclick="saveScore()" class="button">Save Score</button>
+        <button onclick="reset()" class="button">Reset</button>
+    </div>
     <input type="text" placeholder="Result" id="result" readonly>
     <script src="script.js"></script>
 </body>
